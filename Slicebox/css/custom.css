@@ -10,9 +10,9 @@
 }
 
 .sb-description h3 {
-	font-size: 20px;
+	font-size: 2em;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .sb-description h3 a {
@@ -77,8 +77,8 @@
 	box-shadow: 
 		0 1px 1px rgba(255,255,255,0.6), 
 		inset 0 1px 1px rgba(0,0,0,.1), 
-		inset 0 0 0 3px rgba(102, 255, 224, 0.5),
-		inset 0 0 0 8px rgba(102, 255, 224, 0.5);
+		inset 0 0 0 3px rgba(190,176,155, 0.5),
+		inset 0 0 0 8px rgba(190,176,155, 0.5);
 }
 
 .nav-options {
