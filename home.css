@@ -165,8 +165,8 @@ transform: scale(1, 1);
 
 .navimg {
 /*	opacity: 0.3;*/
-	width: 40px;
-	height: 40px;
+	width: 40px !important;
+	height: 40px !important;
 	z-index: 100000;
 /*	-webkit-animation: pulse 2s linear infinite;
 	animation: pulse 2s linear infinite;*/
@@ -273,16 +273,4 @@ figure:focus {
   -webkit-transform: rotate(0deg) scale(5); -moz-transform: rotate(0deg) scale(5);
 /*   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;*/
   z-index: 9999;
-}
-
-.hidden {
-	display: none;
-}
-
-.title:hover .hidden {
-	display: block;
-}
-
-.title:hover .nav {
-	display: none;
 }
