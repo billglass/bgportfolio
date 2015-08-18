@@ -140,7 +140,8 @@ a.links:hover, a.links:visited, a.links:link, a.links:active {
 
 #this {
 	list-style-type: none;
-	padding: 5px;
+	padding: 10px;
+	float: left;
 }
 
 @-webkit-keyframes pulse {
