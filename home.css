@@ -128,10 +128,14 @@ letter-spacing: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 	z-index: 10000;
 	list-style-type: none;
+	width: 40px !important;
+	height: 40px !important;
 }
 
 a.links:hover, a.links:visited, a.links:link, a.links:active {
 	color: #FF2701 !important;
+	width: 40px !important;
+	height: 40px !important;
 }
 
 #this {
@@ -165,8 +169,8 @@ transform: scale(1, 1);
 
 .navimg {
 /*	opacity: 0.3;*/
-	width: 40px !important;
-	height: 40px !important;
+/*	width: 40px !important;
+	height: 40px !important;*/
 	z-index: 100000;
 /*	-webkit-animation: pulse 2s linear infinite;
 	animation: pulse 2s linear infinite;*/
