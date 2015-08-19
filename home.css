@@ -162,23 +162,40 @@ body {
 .navtop {
 	color: rgba(230, 230, 230, 0.5);
 	font-size: 1em;
-	margin-top: 100px;
-	padding-left: 20px;
+/*	padding-left: 20px;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	list-style-type: none;
 	position: fixed;
 	z-index: 10000;
 	text-shadow: 2px 2px #000;
+	width: 100%;
 /*	width: 40px !important;
 	height: 40px !important;*/
+}
+
+#bill {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+	color: #fff;
+	margin-top: 0;
+	letter-spacing: 2px;
+	z-index: 100000;
+	text-shadow: 0px 2px 3px #555;
+	float: left;
+	padding-top: 10px;
+/*	margin-top: 150px;
+	margin-bottom: 150px;*/
 }
 
 .navlinks {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0 auto;
+	padding-right: 20px;
 	padding-bottom: 15px;
+	padding-top: 10px;
 	letter-spacing: 5px;
 	font-weight: bold;
+	float: right;
 }
 
 a.links:hover, a.links:visited, a.links:link, a.links:active {
@@ -225,18 +242,6 @@ transform: scale(1, 1);
 	margin-top: 0px;
 	padding-top: 100px;
 	width: 100%;
-}
-
-#bill {
-	font-family: 'Dosis', sans-serif;
-	font-size: 4em;
-	color: #fff;
-	text-align: center;
-	letter-spacing: 2px;
-	z-index: 100000;
-	text-shadow: 0px 2px 3px #555;
-/*	margin-top: 150px;
-	margin-bottom: 150px;*/
 }
 
 #down {
