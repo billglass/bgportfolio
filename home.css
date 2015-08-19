@@ -159,6 +159,12 @@ body {
 	width: 100%;
 }
 
+.projinfo {
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
 .navtop {
 	color: rgba(230, 230, 230, 0.5);
 	font-size: 1em;
