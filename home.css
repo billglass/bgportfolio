@@ -113,8 +113,7 @@ body {
 	font-size: 2.5em;
 }
 
-.projects {
-	margin: 0 auto;
+#projects {
 	margin: 100px 0 0 0;
 	padding-top: 10px;
 	/*font-family: 'Source Sans Pro', sans-serif;*/
@@ -128,6 +127,34 @@ body {
 	width: 100%;
 
 /*	box-shadow: 10px 10px 10px #000;*/
+}
+
+#aboutme {
+	margin: 100px 0 0 0;
+	padding-top: 50px;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+/*	font-family: 'Poiret One', cursive;*/
+/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	font-size: 2.5em;
+	color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	width: 100%;
+}
+
+#connection {
+	margin: 100px 0 0 0;
+	padding-top: 100px;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+/*	font-family: 'Poiret One', cursive;*/
+/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	font-size: 2.5em;
+	color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	width: 100%;
 }
 
 .navtop {
@@ -148,7 +175,8 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0 auto;
 	padding-bottom: 15px;
-	letter-spacing: .1em;
+	letter-spacing: 5px;
+	font-weight: bold;
 }
 
 a.links:hover, a.links:visited, a.links:link, a.links:active {
@@ -193,6 +221,7 @@ transform: scale(1, 1);
 
 .animated {
 	margin-top: 0px;
+	padding-top: 100px;
 }
 
 #bill {
