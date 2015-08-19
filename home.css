@@ -134,11 +134,12 @@ body {
 	color: rgba(230, 230, 230, 0.5);
 	font-size: 1em;
 	margin-top: 100px;
-	padding-left: 50px;
+	padding-left: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
 	list-style-type: none;
 	position: fixed;
 	z-index: 10000;
+	text-shadow: 2px 2px #000;
 /*	width: 40px !important;
 	height: 40px !important;*/
 }
