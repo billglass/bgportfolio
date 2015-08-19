@@ -214,13 +214,14 @@ transform: scale(1, 1);
 	height: 300px;
 	width: 150px;
 	margin: 0 auto;
-	margin-top: 550px;
+	margin-top: 600px;
 	text-align: center;
+	opacity: 0.7;
 }
 
 #south {
-	height: 120px;
-	width: 80px;
+	height: 100px;
+	width: 40px;
 }
 
 .logo {
