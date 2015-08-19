@@ -7,13 +7,19 @@ body {
 	margin: 0 auto;
 	top: 0;
 	width: 100%;
-	height: 100%;
+/*	height: 100%;*/
+	background: url(images/stage2.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
 }
 
 #beach {
 	height: 1000px;
 	width: 100%;
-	background: url(images/bparkbw.jpg) no-repeat center center fixed;
+	background: url(images/stage3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +48,7 @@ body {
 	margin-top: 150px;
 	margin-bottom: 500px;
 	height: 700px;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.0);
 	z-index: 100000;
 }
 
@@ -52,7 +58,7 @@ body {
 	margin-bottom: 100px;
 	width: 100%;
 	height: 700px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.0);
 	z-index: 100000;
 }
 
@@ -273,12 +279,12 @@ figure img {
 
 figure:hover {
   -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg);
-/*  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;*/
+  -webkit-box-shadow: 0 3px 5px #666; -moz-box-shadow: 0 3px 5px #666;
 }
 
 figure:focus {
   outline: none;
   -webkit-transform: rotate(0deg) scale(5); -moz-transform: rotate(0deg) scale(5);
-/*   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;*/
+   -webkit-box-shadow: 0 3px 5px #666; -moz-box-shadow: 0 3px 5px #666;
   z-index: 9999;
 }
