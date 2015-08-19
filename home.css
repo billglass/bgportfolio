@@ -198,6 +198,7 @@ body {
 	letter-spacing: 5px;
 	font-weight: bold;
 	float: right;
+	text-transform: uppercase;
 }
 
 a.links:hover, a.links:visited, a.links:link, a.links:active {
